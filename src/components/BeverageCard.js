@@ -12,10 +12,10 @@ function BeverageCard({ name, desc = 'Minuman', price, imgUrl }) {
       {/* details */}
       <div className="flex flex-col justify-between flex-1">
         <div>
-          <h4 className="font-medium">{name}</h4>
-          <p className="text-sm text-gray-400">{desc}</p>
+          <h4 className="font-medium leading-tight">{name}</h4>
+          <p className="pt-1 text-sm text-gray-400">{desc}</p>
         </div>
-        <p className="pt-2 xl:mt-1">Rp{price}</p>
+        <p className="pt-1 xl:mt-1">Rp{price}</p>
       </div>
     </div>
   )

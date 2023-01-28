@@ -65,13 +65,26 @@ function OrderInfoSection() {
           <h4 className="font-semibold">Pesan Online:</h4>
         </div>
 
+        <h4 className="pt-2 text-red-500">[Segera hadir!]</h4>
         <div className="flex flex-col gap-4 mt-6 xl:gap-6 xl:grid xl:grid-cols-3">
           <OrderOnlineButton
             name="Shopee Food"
             imgUrl="/img/shopeefood-logo.png"
+            isDisabled={true}
+            url="#shopeefood"
           />
-          <OrderOnlineButton name="GoFood" imgUrl="/img/gofood-logo.png" />
-          <OrderOnlineButton name="Grab Food" imgUrl="/img/grabfood-logo.png" />
+          <OrderOnlineButton
+            name="GoFood"
+            imgUrl="/img/gofood-logo.png"
+            isDisabled={true}
+            url="#gofood"
+          />
+          <OrderOnlineButton
+            name="Grab Food"
+            imgUrl="/img/grabfood-logo.png"
+            isDisabled={true}
+            url="#grabfood"
+          />
         </div>
 
         <div className="mt-10">

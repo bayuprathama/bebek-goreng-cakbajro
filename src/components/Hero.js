@@ -20,13 +20,11 @@ function Hero() {
         <h4 className="pt-4 mx-6 text-center text-slate-600 xl:text-left xl:max-w-lg xl:mx-10">
           Suka ayam tapi bosan makan yang itu-itu aja? Yuk cobain kuliner
           lalapan{' '}
-          <span className="font-medium text-yellow-500">
+          <span className="font-medium underline">
             bebek goreng sambal hitam
           </span>{' '}
           khas Madura kami dengan{' '}
-          <span className="font-medium text-yellow-500">
-            harga yang terjangkau!
-          </span>
+          <span className="font-medium underline">harga yang terjangkau!</span>
         </h4>
         <div className="mt-10 xl:mx-10">
           <div className="text-center xl:text-left">
