@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layouts from '@/components/Layouts'
-import { Lobster_Two } from '@next/font/google'
+import { Lobster_Two, Inter } from '@next/font/google'
 
 import Image from 'next/image'
 import MenuSection from '@/components/MenuSection'
@@ -12,6 +12,10 @@ export const lobsterTwo = Lobster_Two({
   style: ['italic'],
   subsets: ['latin'],
   variable: '--lobsterTwo',
+})
+export const inter = Inter({
+  subsets: ['latin'],
+  variable: '--inter',
 })
 
 export default function Home() {

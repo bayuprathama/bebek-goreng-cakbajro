@@ -1,11 +1,12 @@
 import clsx from 'clsx'
-function NavLink({ children, button, href }) {
+function NavLink({ children, button, href, className }) {
   return (
     <li>
       <a
         className={clsx(
-          button ? 'border border-green-700 rounded px-4 py-1' : '',
-          ' cursor-pointer'
+          button ? 'border-slate-200 border rounded px-4 py-1' : '',
+          ' cursor-pointer',
+          className
         )}
         href={href}
       >
