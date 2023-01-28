@@ -1,6 +1,5 @@
 import { Lobster_Two } from '@next/font/google'
-import bebekGoreng from '../../public/img/bebek-goreng.jpg'
-import Image from 'next/image'
+
 export const lobsterTwo = Lobster_Two({
   weight: ['700'],
   style: ['italic'],
@@ -10,7 +9,7 @@ export const lobsterTwo = Lobster_Two({
 
 function Hero() {
   return (
-    <div className="flex shadow-sm">
+    <div className="flex shadow-md">
       <div className="flex-1 hidden bg-cover bg-slate-400 xl:block bg-hero"></div>
       <div className="flex-1 py-20 ">
         <h1
@@ -21,11 +20,11 @@ function Hero() {
         <h4 className="pt-4 mx-6 text-center text-slate-600 xl:text-left xl:max-w-lg xl:mx-10">
           Suka ayam tapi bosan makan yang itu-itu aja? Yuk cobain kuliner
           lalapan{' '}
-          <span className="font-medium text-green-700">
+          <span className="font-medium text-yellow-500">
             bebek goreng sambal hitam
           </span>{' '}
           khas Madura kami dengan{' '}
-          <span className="font-medium text-green-700">
+          <span className="font-medium text-yellow-500">
             harga yang terjangkau!
           </span>
         </h4>
@@ -33,7 +32,7 @@ function Hero() {
           <div className="text-center xl:text-left">
             <a
               href="#pemesanan"
-              className="inline-block px-6 py-4 bg-green-700 rounded-lg text-green-50 "
+              className="inline-block px-6 py-4 font-medium text-yellow-900 bg-yellow-300 rounded-lg"
             >
               Pesan Sekarang
             </a>

@@ -10,7 +10,7 @@ const lobsterTwo = Lobster_Two({
 function Footer() {
   const year = new Date().getFullYear()
   return (
-    <footer className="mt-20 text-center text-red-700 bg-yellow-300 py-7">
+    <footer className="mt-20 text-center border-t border-slate-100 text-slate-900 py-7">
       <h4 className={`${lobsterTwo.variable} font-lobsterTwo font-bold`}>
         Nasi Bebek Goreng Sambal Hitam Madura Cak Bajro
       </h4>
