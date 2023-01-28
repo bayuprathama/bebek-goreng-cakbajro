@@ -27,10 +27,10 @@ export const minuman = [
     price: '5000',
     imgUrl: '/img/air-mineral.jpg',
   },
-  {
-    name: 'Coca-Cola Mini',
-    description: 'Minuman',
-    price: '5000',
-    imgUrl: '/img/cola.png',
-  },
+  // {
+  //   name: 'Coca-Cola Mini',
+  //   description: 'Minuman',
+  //   price: '5000',
+  //   imgUrl: '/img/cola.png',
+  // },
 ]

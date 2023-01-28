@@ -34,8 +34,16 @@ function OrderInfoSection() {
           <h4 className="font-semibold">Lokasi</h4>
         </div>
         <p className="mt-2 text-sm text-gray-500">
-          Jalan Raya Batubulan, Gianyar
+          Jl. Raya Batubulan No.28x, Batubulan, Kec. Sukawati, Kabupaten
+          Gianyar, Bali 80237
         </p>
+        <div className="mt-3 xl:grid xl:grid-cols-3 xl:gap-6">
+          <OrderOnlineButton
+            name="Google Maps"
+            imgUrl="/img/googlemaps-logo.png"
+            url="https://goo.gl/maps/tBchhT5Fy7A89TxVA"
+          />
+        </div>
       </div>
       <div className="mt-8">
         <div className="flex items-center gap-2 ">
@@ -57,7 +65,7 @@ function OrderInfoSection() {
           <h4 className="font-semibold">Pesan Online:</h4>
         </div>
 
-        <div className="flex flex-col gap-6 mt-6 xl:grid xl:grid-cols-3">
+        <div className="flex flex-col gap-4 mt-6 xl:gap-6 xl:grid xl:grid-cols-3">
           <OrderOnlineButton
             name="Shopee Food"
             imgUrl="/img/shopeefood-logo.png"
@@ -89,6 +97,7 @@ function OrderInfoSection() {
             <OrderOnlineButton
               name="Whatsapp"
               imgUrl="/img/whatsapp-logo.png"
+              url="https://wa.link/17eh5a"
             />
           </div>
         </div>

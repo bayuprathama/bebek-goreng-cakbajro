@@ -18,7 +18,7 @@ function Hero() {
         >
           Nasi Bebek Goreng Sambal Hitam Madura Cak Bajro
         </h1>
-        <h4 className="pt-4 mx-6 text-center text-red-500 xl:text-left xl:max-w-lg xl:mx-10">
+        <h4 className="pt-4 mx-6 text-center text-red-600 xl:text-left xl:max-w-lg xl:mx-10">
           Suka ayam tapi bosan makan yang itu-itu aja? Yuk cobain kuliner
           lalapan{' '}
           <span className="font-medium text-green-700">
@@ -33,7 +33,7 @@ function Hero() {
           <div className="text-center xl:text-left">
             <a
               href="#pemesanan"
-              className="inline-block px-6 py-4 text-yellow-300 bg-green-700 rounded-lg "
+              className="inline-block px-6 py-4 bg-green-700 rounded-lg text-green-50 "
             >
               Pesan Sekarang
             </a>
